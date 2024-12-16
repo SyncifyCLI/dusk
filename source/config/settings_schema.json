@@ -4,8 +4,8 @@
     "theme_name": "Dusk",
     "theme_author": "Syncify",
     "theme_version": "1.0.0",
-    "theme_documentation_url": "https://github.com/panoply/syncify",
-    "theme_support_url": "https://github.com/panoply/syncify"
+    "theme_documentation_url": "https://syncify.sh/straps/dusk",
+    "theme_support_url": "https://github.com/SyncifyCLI/dusk"
   },
   {
     "name": "font",

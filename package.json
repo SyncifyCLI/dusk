@@ -1,12 +1,8 @@
 {
   "name": "dusk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {
-    "dev": "sy -w --hot",
-    "build": "sy -b"
-  },
   "license": "MIT",
   "stylelint": {
     "extends": "@syncify/stylelint-config"
@@ -20,6 +16,11 @@
     },
     "config": {
       "transform": {
+        "script": {
+          "input": "assets/script.ts",
+          "format": "esm",
+          "rename": "[file].min.[ext]"
+        },
         "svg": {
           "snippets/icon.[file]": "assets/icons/*.svg"
         },
@@ -35,10 +36,7 @@
     }
   },
   "devDependencies": {
-    "@syncify/cli": "workspace:0.3.0-beta",
     "@syncify/stylelint-config": "workspace:^",
-    "esbuild": "^0.19.5",
-    "sass": "^1.69.4",
-    "svgo": "^3.0.2"
+    "sass": "^1.83.0"
   }
 }

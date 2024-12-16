@@ -17,11 +17,11 @@ body {
   color: #dfdede;
   margin-bottom: 10px;
 
-  > svg > path  {
-    opacity: .6;
+  > svg > path {
+    opacity: 0.6;
   }
   > svg > path + path {
-    opacity: .9;
+    opacity: 0.9;
   }
 }
 
