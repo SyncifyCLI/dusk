@@ -1,12 +1,8 @@
 {
   "name": "dusk",
   "version": "1.0.0",
-  "description": "",
   "private": true,
-  "license": "MIT",
-  "stylelint": {
-    "extends": "@syncify/stylelint-config"
-  },
+  "license": "UNLICENSED",
   "syncify": {
     "stores": {
       "domain": "syncify",
@@ -36,7 +32,6 @@
     }
   },
   "devDependencies": {
-    "@syncify/stylelint-config": "workspace:^",
     "sass": "^1.83.0"
   }
 }
