@@ -5,8 +5,7 @@
   "license": "UNLICENSED",
   "syncify": {
     "stores": {
-      "domain": "syncify",
-      "themes": {
+      "syncify": {
         "dusk": 137200533745
       }
     },
@@ -15,10 +14,7 @@
         "script": {
           "input": "assets/script.ts",
           "format": "esm",
-          "rename": "[file].min.[ext]"
-        },
-        "svg": {
-          "snippets/icon.[file]": "assets/icons/*.svg"
+          "rename": "[file].min"
         },
         "style": {
           "assets/style.css": {
@@ -27,11 +23,11 @@
               "style": "expanded"
             }
           }
+        },
+        "svg": {
+          "snippets/icon.[file]": "assets/icons/*.svg"
         }
       }
     }
-  },
-  "devDependencies": {
-    "sass": "^1.83.0"
   }
 }

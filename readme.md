@@ -1,6 +1,6 @@
 # Syncify ~ Dusk
 
-A bare bones strap starting point for theme development using [Syncify](https://github.com/panoply/syncify).
+A bare bones starting point strap for Shopify theme development using [Syncify](https://github.com/panoply/syncify). This strap is similar to [Skeleton](https://github.com/syncifycli/skeleton) but comes with some feature presets cooked in.
 
 ### Showcasing
 
@@ -14,17 +14,17 @@ This strap demonstrates basic level configuration using a blank theme structure.
 
 # Instructions
 
-You can start hacking on this project by either forking and installing depedendencies or using the `sy create` command prompt. It is assumed that you have installed [@syncify/cli](https://github.com/panoply/syncify) as a global depencency on your computer and have access to store credentials.
+You can start hacking on this project by either forking and installing depedendencies or using the `sy init` command prompt. It is assumed that you have the [@syncify/cli](https://github.com/panoply/syncify) installed as a global depencency on your computer and have access to store credentials.
 
 - [Installation](https://syncify.sh/setup/installation/)
 - [Authentication](https://syncify.sh/setup/authentication/)
 
-## sy create
+## Installation
 
-Open up your terminal and run the following command:
+You can initialize a new theme project based on this strap using the `sy init` command:
 
 ```bash
-sy create dusk
+sy init dusk
 ```
 
 ## Commands
@@ -32,12 +32,12 @@ sy create dusk
 Couple of basic commands to use during development:
 
 ```bash
-$ sy -w              # Runs Syncify in development watch mode
-$ sy -w --hot        # Runs Syncify in development watch mode with hot reloads
-$ sy -b              # Runs Syncify in build mode
-$ sy -b --prod       # Runs Syncify in build mode with production output
+sy watch           # Runs Syncify in development watch mode
+sy watch --hot     # Runs Syncify in development watch mode with hot reloads
+sy build           # Runs Syncify in build mode
+sy build --prod    # Runs Syncify in build mode with production output
 ```
 
 # License
 
-MIT
+UNLICENSED
